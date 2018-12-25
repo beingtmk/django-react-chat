@@ -18,7 +18,7 @@ body {
   min-width: 360px;
   height: 100vh;
   min-height: 300px;
-  background: #e6eaea;
+  background: #E6EAEA;
 }
 @media screen and (max-width: 360px) {
   #frame {
@@ -168,7 +168,7 @@ body {
   }
 }
 #frame #sidepanel #profile .wrap #status-options:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 0;
@@ -212,15 +212,8 @@ body {
     height: 14px;
   }
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li
-  span.status-circle:before {
-  content: "";
+#frame #sidepanel #profile .wrap #status-options ul li span.status-circle:before {
+  content: '';
   position: absolute;
   width: 14px;
   height: 14px;
@@ -230,14 +223,7 @@ body {
   z-index: 0;
 }
 @media screen and (max-width: 735px) {
-  #frame
-    #sidepanel
-    #profile
-    .wrap
-    #status-options
-    ul
-    li
-    span.status-circle:before {
+  #frame #sidepanel #profile .wrap #status-options ul li span.status-circle:before {
     height: 18px;
     width: 18px;
   }
@@ -250,84 +236,28 @@ body {
     display: none;
   }
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li#status-online
-  span.status-circle {
+#frame #sidepanel #profile .wrap #status-options ul li#status-online span.status-circle {
   background: #2ecc71;
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li#status-online.active
-  span.status-circle:before {
+#frame #sidepanel #profile .wrap #status-options ul li#status-online.active span.status-circle:before {
   border: 1px solid #2ecc71;
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li#status-away
-  span.status-circle {
+#frame #sidepanel #profile .wrap #status-options ul li#status-away span.status-circle {
   background: #f1c40f;
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li#status-away.active
-  span.status-circle:before {
+#frame #sidepanel #profile .wrap #status-options ul li#status-away.active span.status-circle:before {
   border: 1px solid #f1c40f;
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li#status-busy
-  span.status-circle {
+#frame #sidepanel #profile .wrap #status-options ul li#status-busy span.status-circle {
   background: #e74c3c;
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li#status-busy.active
-  span.status-circle:before {
+#frame #sidepanel #profile .wrap #status-options ul li#status-busy.active span.status-circle:before {
   border: 1px solid #e74c3c;
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li#status-offline
-  span.status-circle {
+#frame #sidepanel #profile .wrap #status-options ul li#status-offline span.status-circle {
   background: #95a5a6;
 }
-#frame
-  #sidepanel
-  #profile
-  .wrap
-  #status-options
-  ul
-  li#status-offline.active
-  span.status-circle:before {
+#frame #sidepanel #profile .wrap #status-options ul li#status-offline.active span.status-circle:before {
   border: 1px solid #95a5a6;
 }
 #frame #sidepanel #profile .wrap #expanded {
@@ -369,7 +299,7 @@ body {
   margin: 10px 0 0 20px;
 }
 #frame #sidepanel #search input {
-  font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+  font-family: "proxima-nova",  "Source Sans Pro", sans-serif;
   padding: 10px 0 10px 46px;
   width: calc(100% - 25px);
   border: none;
@@ -508,7 +438,7 @@ body {
   border: none;
   padding: 0 2px 0 0;
   margin: 0 0 0 1px;
-  opacity: 0.5;
+  opacity: .5;
 }
 #frame #sidepanel #bottom-bar {
   position: absolute;
@@ -524,7 +454,7 @@ body {
   color: #f5f5f5;
   cursor: pointer;
   font-size: 0.85em;
-  font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+  font-family: "proxima-nova",  "Source Sans Pro", sans-serif;
 }
 @media screen and (max-width: 735px) {
   #frame #sidepanel #bottom-bar button {
@@ -683,7 +613,7 @@ body {
   position: relative;
 }
 #frame .content .message-input .wrap input {
-  font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+  font-family: "proxima-nova",  "Source Sans Pro", sans-serif;
   float: left;
   border: none;
   width: calc(100% - 90px);
@@ -706,7 +636,7 @@ body {
   margin-top: 10px;
   font-size: 1.8em;
   color: #435f7a;
-  opacity: 0.5;
+  opacity: .5;
   cursor: pointer;
 }
 @media screen and (max-width: 735px) {

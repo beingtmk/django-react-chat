@@ -1,8 +1,10 @@
-# mysite/urls.py
-from django.conf.urls import include, url
 from django.contrib import admin
+from django.urls import path, include
 
 urlpatterns = [
-    url(r'^chat/', include('chat.urls', namespace='chat')),
-    url(r'^admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
+    path('api-auth/', include('rest_framework.urls')),
+    path('chat/', include('chat.urls', namespace='chat')),
+    path('rest-auth/', include('rest_auth.urls')),
+    path('rest-auth/registration/', include('rest_auth.registration.urls')),
 ]
